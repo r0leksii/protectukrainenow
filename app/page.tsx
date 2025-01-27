@@ -6,7 +6,7 @@ export default function Home() {
     <main className="w-full">
       <Section className="relative text-white h-screen mt-[-100px]">
         <Image
-          src="/famous-statue-liberty-new-york.jpg"
+          src="/hero-bkg.jpg"
           alt="Background"
           fill
           className="object-cover object-center"
