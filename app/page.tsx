@@ -1,4 +1,4 @@
-import { Container, Section } from '@/app/_components'
+import { Accordion, Container, Section } from '@/app/_components'
 import Image from 'next/image'
 
 export default function Home() {
@@ -149,6 +149,7 @@ export default function Home() {
       <Section>
         <Container className="flex flex-col items-center justify-center gap-8 pt-16">
           <h2 className="text-6xl font-bold">FAQ</h2>
+          <Accordion />
         </Container>
       </Section>
     </main>
