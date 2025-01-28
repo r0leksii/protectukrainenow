@@ -15,6 +15,12 @@
   }
 }
 
+@media (width <= 1024px) {
+  .text-5xl.font-bold {
+    font-size: 1.7rem;
+  }
+}
+
 body {
   color: var(--background);
   background: var(--foreground);

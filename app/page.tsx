@@ -16,8 +16,8 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-[#004080]/50" />
         <Container className="flex flex-col h-full justify-center gap-8">
-          <h1 className="text-8xl font-bold text-balance z-10">
-            Fund Ukraine&apos;s Military, End Wasteful Aid
+          <h1 className="text-5xl font-bold text-balance z-10">
+            Fund Ukraine&apos;s Military,<br/>End Wasteful Aid
           </h1>
           <p className="text-2xl text-balance z-10">
             Exposing Corruption and Bias to Prioritize Military Support
@@ -39,7 +39,7 @@ export default function Home() {
       <Section>
         <Container className="flex flex-col items-center justify-center gap-8 pt-16">
           <h2 className="text-6xl font-bold ">Mission:</h2>
-          <p className="text-2xl">
+          <p className="text-2xl text-center">
             Our mission is to ensure that U.S. aid to Ukraine is used
             effectively to support its defense capabilities and long-term
             stability. Current programs are not achieving their goals and may
